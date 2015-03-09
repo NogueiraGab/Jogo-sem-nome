@@ -15,9 +15,9 @@ public class Movimentation : MonoBehaviour
     {
         switch (d)
         {
-            case DIRECTION.DOWN:  g.transform.position += new Vector3 (0, 0, -speed);   break;
+            case DIRECTION.DOWN:  g.transform.position += new Vector3 (0, 0, -speed);  break;
 
-            case DIRECTION.UP:    g.transform.position += new Vector3 (0, 0, speed);  break;
+            case DIRECTION.UP:    g.transform.position += new Vector3 (0, 0, speed);   break;
 
             case DIRECTION.LEFT:  g.transform.position += new Vector3 (-speed, 0, 0);  break;
 
